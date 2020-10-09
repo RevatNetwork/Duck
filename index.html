@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="https://kit.fontawesome.com/d08619dccc.js" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
 <style>
@@ -13,15 +13,25 @@
       .container {
         position: relative;
       }
+
       .box{
+        width: 100%;
+        height: 656px;
+        top: 0%;
+        position: absolute;
+        color: white;
+      }
+
+      .container-fluid{
+        opacity: 0.7;
         width: 100%;
         height: 656px;
         top: 0%;
         position: absolute;
         background-color:#020310;
         color: white;
-        opacity: 0.9;
       }
+
 
       .iconcor i:hover{
         text-shadow: 1px 1px 2px white, 0 0 25px #06F700, 0 0 5px #06F700;
@@ -40,12 +50,14 @@
         50%{transform: scale(1.1);}
         100%{transform: scale(1);}
     }
+
 </style>
 </head>
 <body>
     <div class="container">
         <div></div>
-        <img src="https://revatnetwork.github.io/duck.github.io/images/homeimg.jpg" width="100%" height="656px">
+        <img src="/images/homeimg.jpg" width="100%" height="656px">
+        <div class="container-fluid"></div>
         <div class="box">
             <div class="iconcor">
                 <i style="position:absolute;top:430px;left:145px;font-size:40px;" class="fas fa-network-wired"></i>
